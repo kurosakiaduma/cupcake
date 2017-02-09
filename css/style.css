@@ -1,0 +1,30 @@
+span.title{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.tl{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: brown;
+}
+
+.img{
+    width: 438px;
+    float: left;
+    text-align: center;
+    border: 3px solid green;
+    padding: 0.17px;
+    margin: 0.01px;
+}
+
+.best{
+background-color: green;
+}
+
+p.link{
+    font-size: 20px;
+}
