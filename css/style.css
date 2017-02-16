@@ -5,14 +5,37 @@ span.title{
 
 .tl{
     text-align: center;
-    color: white;
     -webkit-animation-duration:1s;
     -webkit-animation-delay:0.5s;
 }
 
 body{
+    text-align: center;
+}
+
+p.navbar-brand{
+    font-size: 50px;
+}
+
+.blue-background {
     background-color: rgba(21, 205, 237, 0.79);
     text-align: center;
+}
+
+.black-background{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.white-background{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+ul.active{
+    text-decoration: underline;
 }
 
 #link{
