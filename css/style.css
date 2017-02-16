@@ -6,19 +6,34 @@ span.title{
 .tl{
     text-align: center;
     color: white;
+    -webkit-animation-duration:1s;
+    -webkit-animation-delay:0.5s;
 }
 
 body{
-    background-color: brown;
+    background-color: rgba(21, 205, 237, 0.79);
+    text-align: center;
+}
+
+#link{
+    color: blue;
+}
+
+#link:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .img{
+    display: none;
     width: 438px;
     float: left;
     text-align: center;
     border: 3px solid green;
     padding: 0.17px;
     margin: 0.01px;
+    -webkit-animation-duration:1s;
+    -webkit-animation-delay:0.5s;
 }
 
 .best{
